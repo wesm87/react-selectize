@@ -4,6 +4,7 @@
   "description": "A Stateless & Flexible Select component for React inspired by Selectize",
   "main": "src/index.js",
   "scripts": {
+    "build": "gulp dist",
     "test": "mocha test/index.ls --compilers ls:livescript",
     "coverage": "istanbul cover _mocha -- test/index.ls --require should --compilers ls:livescript",
     "coveralls": "istanbul cover _mocha -- test/index.ls --require should --compilers ls:livescript  && cat coverage/lcov.info | coveralls"
